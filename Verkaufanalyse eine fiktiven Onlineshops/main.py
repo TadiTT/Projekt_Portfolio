@@ -1,7 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
-Verkauf = r"C:\Users\Tzafer\Desktop\Tzafer\Persöhnliches ProjektPorfolio\Verkaufanalyse eine fiktiven Onlineshops\verkauf.csv"
+Verkauf = r"verkauf.csv"
 
 
 def Aufgabe1():
@@ -108,19 +109,47 @@ def Aufgabe5():
 
 def Aufgabe6():
     print("###Visualisierungen###")
+    try:
+        df = pd.read_csv(Verkauf, encoding='utf-8-sig', on_bad_lines='skip', sep=None, engine='python')
+        df.columns = df.columns.str.strip()
 
-    df = pd.read_csv(Verkauf, sep=";", dayfirst=True)
+        ### Datum
+        df["Datum"] = pd.to_datetime(df["Datum"], dayfirst=True, errors="coerce")
+        df["Monat"] = df["Datum"].dt.month
 
-    UmsatzProProdukt = df.groupby("Produkt")["Umsatz"].sum().sort_values()
+        UmsatzProProdukt = df.groupby("Produkt")["Umsatz"].sum().sort_values()
+        UmsatzProMonat   = df.groupby("Monat")["Umsatz"].sum().sort_index()
+        UmsatzProKategorie = df.groupby("Kategorie")["Umsatz"].sum().sort_values()
 
-    UmsatzProProdukt.plot(kind="barh")
+        figure, axes = plt.subplots(1, 3, figsize=(12, 5))
 
-    plt.ylabel("Produkt")
-    plt.xlabel("Umsatz")
-    plt.title("Umsatz pro Produkt")
+        axes[0].bar(UmsatzProProdukt.index, UmsatzProProdukt.values)
+        axes[0].set_title("Umsatz pro Produkt")
+        axes[0].set_ylabel("Umsatz (€)")
+        axes[0].tick_params(axis='x', rotation=45)
 
-    plt.tight_layout()
-    plt.show()
+        axes[1].plot(UmsatzProMonat.index ,UmsatzProMonat.values, marker="o")
+        axes[1].set_title("Monatlicher Umsatz im Verlauf")
+        axes[1].set_ylabel("Umsatz (€)")
+        axes[1].set_xlabel("Monat")
+        axes[1].set_xticks(UmsatzProMonat.index)
+
+        axes[2].pie(UmsatzProKategorie.values,
+                    labels=UmsatzProKategorie.index,
+                    autopct='%1.1f%%',
+                    shadow=True,
+                    startangle=90
+                    )
+        axes[2].set_title("Umsatz pro Kategorie (% - Anteilig)")
+
+        figure.tight_layout()
+        plt.show()
+
+    except FileNotFoundError:
+        print(f"Datei nicht gefunden: {Verkauf}")
+    except Exception as e:
+        print(f"Fehler: {type(e).__name__}: {e}")
+
 
 
 

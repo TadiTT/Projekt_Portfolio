@@ -135,12 +135,17 @@ def Aufgabe6():
         axes[1].set_xticks(UmsatzProMonat.index)
 
         axes[2].pie(UmsatzProKategorie.values,
-                    labels=UmsatzProKategorie.index,
                     autopct='%1.1f%%',
                     shadow=True,
                     startangle=90
                     )
         axes[2].set_title("Umsatz pro Kategorie (% - Anteilig)")
+
+        axes[2].legend(UmsatzProKategorie.index,
+                            title="Kategorien",
+                            loc="center left",
+                            bbox_to_anchor=(1, 0, 0.5, 1)
+                            )
 
         figure.tight_layout()
         plt.show()

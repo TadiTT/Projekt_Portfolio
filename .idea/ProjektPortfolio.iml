@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Verkaufanalyse eine fiktiven Onlineshops/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.14 (ProjektPortfolio)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.12 (Projekt_Portfolio)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

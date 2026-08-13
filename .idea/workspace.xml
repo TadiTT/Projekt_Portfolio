@@ -7,7 +7,18 @@
     <list default="true" id="6b68960d-5798-444b-8a9e-5a47d0875568" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/ProjektPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjektPortfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.idea/Verkaufanalyse eine fiktiven Onlineshops.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.idea/pyProjectModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/Beginner_Data Analyst Project – Aufgaben.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beginner Projects/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)/verkauf.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +26,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="4185" />
+    <option name="cachedIndexableFilesCount" value="21" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000259808091491" />
-      <entry key="S2" value="1.1662668796649986" />
-      <entry key="S5" value="1.712673577229133" />
-      <entry key="S10" value="2.2010454394195507" />
-      <entry key="S30" value="2.932742387628622" />
-      <entry key="S60" value="3.5231358722275377" />
-      <entry key="M2" value="4.776318612745209" />
-      <entry key="M5" value="7.749658422933521" />
-      <entry key="M10" value="10.171256391101196" />
-      <entry key="M15" value="12.073353484781354" />
-      <entry key="M30" value="21.815859907557776" />
-      <entry key="H1" value="45.08212730245438" />
-      <entry key="H2" value="75.92276786556748" />
-      <entry key="H4" value="103.73005887727517" />
-      <entry key="D1" value="139.01900831201192" />
-      <entry key="W1" value="146.66953161733332" />
+      <entry key="MS100" value="1.0000000000264122" />
+      <entry key="MS500" value="1.0076623359686605" />
+      <entry key="S2" value="1.295870407504546" />
+      <entry key="S5" value="1.6299187794593732" />
+      <entry key="S10" value="2.161911598743772" />
+      <entry key="S30" value="9.352934668730407" />
+      <entry key="S60" value="21.19557967893459" />
+      <entry key="M2" value="35.90706064374461" />
+      <entry key="M5" value="60.716548219619995" />
+      <entry key="M10" value="84.03871988640356" />
+      <entry key="M15" value="97.66634581170022" />
+      <entry key="M30" value="121.25669448386863" />
+      <entry key="H1" value="152.00939186730366" />
+      <entry key="H2" value="189.380202001176" />
+      <entry key="H4" value="223.42420831112295" />
+      <entry key="D1" value="267.588758229849" />
+      <entry key="W1" value="277.30526861548776" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.081342364608364E-208" />
-      <entry key="S2" value="1.4213490933265719E-52" />
-      <entry key="S5" value="1.824232978839889E-21" />
-      <entry key="S10" value="4.27110404794813E-11" />
-      <entry key="S30" value="3.495532817239402E-4" />
-      <entry key="S60" value="0.018696344073747158" />
-      <entry key="M2" value="0.13673457526809815" />
-      <entry key="M5" value="0.4511823179946904" />
-      <entry key="M10" value="0.6730301197126785" />
-      <entry key="M15" value="0.783670085470253" />
-      <entry key="M30" value="1.1061812467146648" />
-      <entry key="H1" value="2.01572575868814" />
-      <entry key="H2" value="3.806359620860587" />
-      <entry key="H4" value="5.920114623220416" />
-      <entry key="D1" value="9.114518185304215" />
-      <entry key="W1" value="9.867200294225086" />
+      <entry key="MS100" value="8.141481403603964E-288" />
+      <entry key="MS500" value="3.820680193953354E-58" />
+      <entry key="S2" value="4.4211492053253055E-15" />
+      <entry key="S5" value="1.8122331428934177E-6" />
+      <entry key="S10" value="0.0013461920906005771" />
+      <entry key="S30" value="0.11050620637301263" />
+      <entry key="S60" value="0.3421859637588205" />
+      <entry key="M2" value="0.6950031663742221" />
+      <entry key="M5" value="1.4187547752753749" />
+      <entry key="M10" value="2.0767764869398757" />
+      <entry key="M15" value="2.466232493217021" />
+      <entry key="M30" value="3.1600592124080493" />
+      <entry key="H1" value="4.2288219296239715" />
+      <entry key="H2" value="6.1101671157536135" />
+      <entry key="H4" value="8.389277125405615" />
+      <entry key="D1" value="11.978890664365293" />
+      <entry key="W1" value="12.846215454635058" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4236953606213485E-5" />
-      <entry key="MS500" value="0.10732318118438033" />
-      <entry key="S2" value="0.6218820302557225" />
-      <entry key="S5" value="1.2324922192524765" />
-      <entry key="S10" value="1.82941266658414" />
-      <entry key="S30" value="2.7528510253114296" />
-      <entry key="S60" value="3.4379629010352004" />
-      <entry key="M2" value="4.851228300831939" />
-      <entry key="M5" value="8.166469770096697" />
-      <entry key="M10" value="10.822908621158847" />
-      <entry key="M15" value="12.840965600784603" />
-      <entry key="M30" value="22.910820718959197" />
-      <entry key="H1" value="47.08888287379936" />
-      <entry key="H2" value="79.72237952850621" />
-      <entry key="H4" value="109.64572904193649" />
-      <entry key="D1" value="148.13254858120573" />
-      <entry key="W1" value="156.53658466715956" />
+      <entry key="MS100" value="0.9075191553414652" />
+      <entry key="MS500" value="0.988314927305615" />
+      <entry key="S2" value="1.2898022100689297" />
+      <entry key="S5" value="1.626947467705579" />
+      <entry key="S10" value="2.1613474712326473" />
+      <entry key="S30" value="9.458297065131177" />
+      <entry key="S60" value="21.530007771894024" />
+      <entry key="M2" value="36.589318427399064" />
+      <entry key="M5" value="62.11229668053023" />
+      <entry key="M10" value="86.09073451433895" />
+      <entry key="M15" value="100.10970930485227" />
+      <entry key="M30" value="124.39894200995889" />
+      <entry key="H1" value="156.22490314449678" />
+      <entry key="H2" value="195.48097367372213" />
+      <entry key="H4" value="231.80749001023383" />
+      <entry key="D1" value="279.5663573251837" />
+      <entry key="W1" value="290.151290145374" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -88,6 +106,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3FjRusTZSLmsO9j87hWshOwR48x" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -105,12 +126,13 @@
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tariktza/Documents/ProjektPortfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tariktza/Documents/Projekt_Portfolio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -118,7 +140,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.26222.68" />
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
       </set>
     </attachedChunks>
   </component>
@@ -131,11 +154,24 @@
       <updated>1782586717566</updated>
       <workItem from="1782586718596" duration="5305000" />
       <workItem from="1782653153722" duration="1447000" />
+      <workItem from="1786446036516" duration="2323000" />
+      <workItem from="1786649165404" duration="191000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjektPortfolio$main.coverage" NAME="main Coverage Results" MODIFIED="1782658827193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Verkaufanalyse eine fiktiven Onlineshops(Pandas : Matplotlib)" />

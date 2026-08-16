@@ -38,7 +38,7 @@ Tools:         Git · GitHub · Power BI · Excel
 - Datenbereinigung und strukturierte Aufbereitung mit Pandas
 
 **Links:**
-- [Projektbeschreibung auf Roadmap.sh](https://roadmap.sh/projects/cleaning-netflix-dataset)
+- [Projektbeschreibung auf Roadmap.sh](https://roadmap.sh/projects/cleaning-netflix-dataset )
 
 
 *Dieses Portfolio wird kontinuierlich mit neuen Projekten erweitert.*

@@ -1,7 +1,7 @@
 # Persönliches Projekt-Portfolio — Tarik Tzafer
 
 Dieses Repository dokumentiert Projekte, die ich eigeninitiativ in meiner Freizeit umsetze.  
-Der Fokus liegt auf der praktischen Anwendung und Vertiefung von Kenntnissen aus den Bereichen **Datenanalyse, Python und SQL** — ergänzend zu meiner Ausbildung.
+Der Fokus liegt auf der praktischen Anwendung und Vertiefung von Kenntnissen aus den Bereichen **Datenanalyse, Python, PowerBI** — ergänzend zu meiner Ausbildung.
 
 ```
 Sprachen:      Python · SQL

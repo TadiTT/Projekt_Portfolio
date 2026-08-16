@@ -17,7 +17,7 @@ Tools:         Git · GitHub · Power BI · Excel
 
 > Analyse eines Pharmadatensatzes zur Identifikation von Verkaufstrends, Top-Produkten und regionalen Leistungsunterschieden.
 
-**Technologien:** Python · Pandas · Matplotlib
+**Technologien:** Python · Pandas 
 
 **Schwerpunkte:**
 - Datenbereinigung und strukturierte Aufbereitung mit Pandas
